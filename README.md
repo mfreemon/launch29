@@ -1,4 +1,4 @@
 launch29
 ========
 
-Client spa for wine consultancy company
+Client single page application for wine consultancy company
