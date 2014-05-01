@@ -1,0 +1,25 @@
+<div class="mail" ng-controller="MailCtrl">
+	<form class="form" name="form">
+		<div class="form-group">
+			<input type="text" name="name" class="form-control" placeholder="NAME" ng-model="mail.name">
+		</div>
+
+		<div class="form-group">
+			<input type="text" name="winery" class="form-control" placeholder="WINERY" ng-model="mail.winery">
+		</div>
+
+		<div class="form-group">
+			<input type="text" name="email" class="form-control" placeholder="EMAIL" ng-model="mail.email">
+		</div>
+
+		<div class="form-group">
+			<input type="text" name="phone" class="form-control" placeholder="PHONE" ng-model="mail.phone">
+		</div>
+
+		<div class="form-group">
+			<textarea name="note" class="form-control" placeholder="LEAVE US A NOTE..." ng-model="mail.note"></textarea>
+		</div>
+
+		<button type="submit" class="btn btn-lg btn-primary" ng-click="sendmail()">Send</button>
+	</form>
+</div>

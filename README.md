@@ -1,4 +1,1 @@
-launch29
-========
-
-Client single page application for wine consultancy company
+This is the server and client side code for the Launch 29 website

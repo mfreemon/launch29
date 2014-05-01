@@ -1,0 +1,21 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="jumbotron">
+  <h1>Lake Water</h1>
+  <p class="lead">
+    Oakland's Finest Scaffolding.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#">Learn More!</a></p>
+</div>
+
+<div class="row marketing">
+  <div ng-repeat="thing in awesomeThings">
+      <h4>{{thing.name}}</h4>
+      <p>{{thing.info}}</p>
+  </div>
+</div>
+<div ng-include="'partials/form'"></div>
+
+<div class="footer">
+  <p>♥ from the Gambas & Freemon team</p>
+</div>
