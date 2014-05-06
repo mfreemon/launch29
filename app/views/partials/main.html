@@ -1,21 +1,81 @@
-<div ng-include="'partials/navbar'"></div>
 
-<div class="jumbotron">
-  <h1>Lake Water</h1>
-  <p class="lead">
-    Oakland's Finest Scaffolding.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Learn More!</a></p>
-</div>
-
-<div class="row marketing">
-  <div ng-repeat="thing in awesomeThings">
-      <h4>{{thing.name}}</h4>
-      <p>{{thing.info}}</p>
+<section class="intro wine">
+  <div class="container">
+    <div class="row"> 
+      <div class="col-md-8 col-md-offset-2 header">
+        <img src="../../images/logo.png">
+        <h1>DIGITAL STRATEGY FOR THE NEW ERA IN WINE</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 arrow">
+        <a ng-click="goWhatWeDo()"><img src="../../images/arrow.png"></a>
+      </div>
+    </div>
   </div>
-</div>
+</section>
+<section class="what_we_do wine" id="what_we_do">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>WHAT WE DO</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-md-offset-2 item">
+        <img src="../../images/custom_content.png">
+        <h2>Custom Content</h2>
+        <p>Relevent, branded content to reach a valuable audience</p>
+        </div>
+      <div class="col-md-3 col-md-offset-2 item">
+        <img src="../../images/scheduling.png">
+        <h2>Scheduling</h2>
+        <p>Publish content to your social networks</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-md-offset-2 item">
+        <img src="../../images/monitoring.png">
+        <h2>Monitoring</h2>
+        <p>Keep a close eye on your social interaction</p>
+      </div>
+      <div class="col-md-3 col-md-offset-2 item">
+        <img src="../../images/brand_engagement.png">
+        <h2>Brand Engagment</h2>
+        <p>Real time interaction with your audience</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-md-offset-2 item">
+        <img src="../../images/analytics.png">
+        <h2>Analytics</h2>
+        <p>Performance reports to understand social communication and effectiveness</p>
+      </div>
+      <div class="col-md-3 col-md-offset-2 item">
+        <img src="../../images/social_events.png">
+        <h2>Social Events</h2>
+        <p>Coming Soon!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <button type="submit" class="btn btn-lg btn-primary what_we_do-btn" ng-click="goContact()">INQUIRE</button>
+      </div>
+    </div>
+  </div>
+</section>
 <div ng-include="'partials/form'"></div>
-
 <div class="footer">
-  <p>♥ from the Gambas & Freemon team</p>
+  <div class="container">
+    <div clss="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="foot-cluster">
+          <p>A subsidiary of VAULT29</p>
+          <img src="../../images/vault29.png">
+          <p>Your world of wine</p>
+        </div>
+        <p>2014 Launch29, LLC. All rights reserved</p>
+      </div>
+    </div>
+  </div>
 </div>
